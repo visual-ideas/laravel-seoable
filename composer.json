@@ -2,6 +2,8 @@
   "name": "visual-ideas/laravel-seoable",
   "description": "Easy Laravel nested settings (stored in MYSQL) package with MoonShine Laravel Admin GUI",
   "keywords": [
+    "Seo",
+    "Seoable",
     "Settings",
     "Laravel",
     "Package",
