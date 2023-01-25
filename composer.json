@@ -1,0 +1,49 @@
+{
+  "name": "visual-ideas/laravel-seoable",
+  "description": "Easy Laravel nested settings (stored in MYSQL) package with MoonShine Laravel Admin GUI",
+  "keywords": [
+    "Settings",
+    "Laravel",
+    "Package",
+    "PHP",
+    "MySQL",
+    "MoonShine",
+    "VisualIdeas"
+  ],
+  "homepage": "https://github.com/visual-ideas/laravel-seoable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex",
+      "email": "alex.visualideas@gmail.com",
+      "role": "Developer"
+    }
+  ],
+
+  "require": {
+    "php": "^8.1",
+    "laravel/framework": "^9.48"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "VI\\LaravelSeoable\\": "src"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "VI\\LaravelSeoable\\LaravelSeoableProvider"
+      ],
+      "aliases": {
+        "LaravelSeoable": "VI\\LaravelSeoable\\Facades\\LaravelSeoableProvider"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+
+}
